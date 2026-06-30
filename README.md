@@ -1,9 +1,15 @@
-# agro_organism_00 (Dirigentrix)
+# CycleFlow 6-9-6 (Agro-Organism)
 
-Dual-core architecture implementation (CYCLUS + NEXUS) for SCM logistics flow.
+## Architecture
+- **CYCLUS (Core 1)**: Sequential 6->9->6 flow logic.
+- **NEXUS (Core 2)**: Anomaly calculation and Qwen-enabled orchestration.
+- **NINIA Layer**: Interceptor layer for payload analysis and routing.
 
-## Features
-- CYCLUS: 6->9->3 sequential flow.
-- NEXUS: Cross-cycle orchestration with Rondo Routing.
-- Continuous Compliance via HACCPLayer.
-- Qwen Integration (DashScope).
+## Commands
+- `tick`: Advance the cycle.
+- `status`: View core numerology and states.
+- `route <msg>`: Manually route a message through Ninia.
+
+## Numerology
+- Cyclus: 153 -> 9 -> 1 (Archetype 1)
+- Nexus: 83 -> 11 -> 2 (Archetype 2)
